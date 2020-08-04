@@ -13,6 +13,13 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  
+  assign_rooms = Array.new
+  attendees.each do |name|
+    room_number = attendees.index(name) + 1)
+    assign_rooms << "Hello, #{name}! You'll be assigned to room #{room_number}!"
+  end
+  assign_rooms
+end
+
 
   
