@@ -27,6 +27,8 @@ def printer(attendees)
   assign_rooms(attendees).each 
   puts |room_number|
 end
+end
+
 
 
 
